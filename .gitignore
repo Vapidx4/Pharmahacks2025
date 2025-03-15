@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache and logs
+*.log
+*.out
+*.err
+*.sqlite3
+*.db
+*.sqlite
+*.pkl
+*.joblib
+
+# Ignore ML-related large files
+*.h5
+*.tflite
+*.onnx
+*.pth
+*.pt
+*.ckpt
+*.pb
+*.npy
+*.npz
+
+# Data and datasets
+# data/
+# datasets/
+# *.csv
+# *.tsv
+# *.json
+# *.xml
+# *.yaml
+# *.yml
+# *.parquet
+# *.hdf5
+# *.feather
+
+# Model checkpoints and training artifacts
+checkpoints/
+models/
+runs/
+wandb/
+mlruns/
+logs/
+
+# TensorBoard logs
+tensorboard/
+events.out.tfevents.*
+
+# IDE and editor files
+.vscode/
+.vscode/*
+.idea/
+.idea/*
+*.sublime-project
+*.sublime-workspace
+
+# PyCharm specific
+*.iml
+*.iws
+*.ipr
+/out/
+.idea/
+workspace.xml
+tasks.xml
+modules.xml
+
+# OS files
+.DS_Store
+Thumbs.db
